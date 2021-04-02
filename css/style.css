@@ -1,0 +1,84 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.main-back{
+    background-color: #FEFCFE;
+    color: #2B3541;
+}
+.wrapper{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 49px;
+    padding-bottom: 0;
+    align-items: center;
+}
+.logo{
+    padding-left: 52.6px;
+}
+.nav{
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    display: inline-flex;
+    margin-right: 668px;
+}
+.nav-item{
+    padding-left:  14px;
+    padding-right: 40px;
+}
+.nav-item:first-child{
+    padding-left: 0; 
+}
+.nav-item:last-child{
+    padding-right: 0;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 150%;
+    border-bottom: 1px solid transparent;
+    transition: 0.2s border-bottom ease;
+}
+.nav-link:hover{
+    border-bottom: 1px solid #2B3541;
+}
+.nav-info{
+    margin-right: 20px;
+}
+.nav-item-info{
+    padding-left:  18px;
+    padding-right: 12px;
+}
+.online-trainings{
+    max-width: 1605px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 23px;
+}
+.wide-yellow-block{
+    width: 535px;
+    height: 850px;
+    background: linear-gradient(90deg, #FBF138 0%, rgba(253, 249, 182, 0.45) 145.23%);
+    opacity: 0.2;
+    margin-right: 20px;
+}
+.narrow-yellow-block{
+    width: 235px;
+    height: 850px;
+    background: linear-gradient(90deg, #FDF9B6 0%, rgba(253, 249, 182, 0.7) 166.81%);
+    opacity: 0.2;
+}
+.girl{
+    position: absolute;
+    left: 12%;
+    top: -45%;
+    transform: translate(50%,50%);
+    object-fit: cover;
+}
+.title-h1{
+    margin: 0;
+}
